@@ -3,13 +3,13 @@ import React from "react";
 // import { NavLink } from 'react-router-dom'
 import styled from "styled-components";
 import { Facebook, Github, Twitter, YouTube } from "../components/AllSvgs";
-import { DarkTheme } from "../components/Themes";
+import { DarkTheme, DarkTheme1 } from "../components/Themes";
 
 const Icons = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  
   position: fixed;
   bottom: 0;
   left: 2rem;
@@ -43,7 +43,7 @@ const SocialIcons = (props) => {
           <Github
             width={25}
             height={25}
-            fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
+            fill={props.theme === "dark" ? DarkTheme1.text : DarkTheme1.body}
           />
         </a>
       </motion.div>
@@ -60,7 +60,7 @@ const SocialIcons = (props) => {
           <Twitter
             width={25}
             height={25}
-            fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
+            fill={props.theme === "dark" ? DarkTheme1.text : DarkTheme1.body}
           />
         </a>
       </motion.div>
@@ -77,7 +77,7 @@ const SocialIcons = (props) => {
           <Facebook
             width={25}
             height={25}
-            fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
+            fill={props.theme === "dark" ? DarkTheme1.text : DarkTheme1.body}
           />
         </a>
       </motion.div>
@@ -94,7 +94,7 @@ const SocialIcons = (props) => {
           <YouTube
             width={25}
             height={25}
-            fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
+            fill={props.theme === "dark" ? DarkTheme1.text : DarkTheme1.body}
           />
         </a>
       </motion.div>

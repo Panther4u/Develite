@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import styled, { keyframes } from 'styled-components'
 import LogoComponent from '../subComponents/LogoComponent'
@@ -22,6 +22,7 @@ h2,h3,h4,h5,h6{
     font-family: Poppins ;
     font-weight:500;
     font-size:18px;
+    color:#fff;
 }
 `
 const VideoContainer = styled.div`
@@ -44,7 +45,7 @@ const BlackOverlay = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0) /* Adjust the opacity here */
+    background-color: rgba(0,0,0,0.2) /* Adjust the opacity here */
 `;
 
 const Container = styled.div`
@@ -52,10 +53,7 @@ padding: 2rem;
 `
 
 const Contact = styled.a`
-color: ${props => props.theme.text};
-position: absolute;
-top: 1.2rem;
-right: calc(1rem + 2vw);
+color: ${props => props.click ? props.theme.body : props.theme.text};
 text-decoration: none;
 z-index:1;
 `
@@ -148,8 +146,14 @@ z-index:1;
 transition: height 0.5s ease, width 1s ease 0.5s;
 `
 
-
 const Main = () => {
+
+    useEffect(() => {
+        const videoElement = document.querySelector('video');
+        if (videoElement) {
+            videoElement.playbackRate = 1; // Adjust the playback rate here
+        }
+    }, []);
 
     const [click, setClick] = useState(false);
 
@@ -158,7 +162,7 @@ const Main = () => {
     return (
         <MainContainer>
             <VideoContainer>
-                <VideoBackground autoPlay loop muted preload="auto" playbackRate={0.1} >
+                <VideoBackground autoPlay loop muted preload="auto" playsInline>
                     <source src={Video} type="video/mp4" />
                 </VideoBackground>
             </VideoContainer>
@@ -174,23 +178,7 @@ const Main = () => {
                 <span>click here</span>
             </Center>
 
-            <Contact target="_blank" href="mailto:codebucks27@gmail.com">
-                <motion.h2
-                initial={{
-                    y:-200,
-                    transition: { type:'spring', duration: 1.5, delay:1}
-                }}
-                animate={{
-                    y:0,
-                    transition: { type:'spring', duration: 1.5, delay:1}
-                }}
-                whileHover={{scale: 1.1}}
-                whileTap={{scale: 0.9}}
-                
-                >
-                    Say hi..
-                </motion.h2>
-            </Contact>
+
             <BLOG to="/blog">
                 <motion.h2
                 initial={{
@@ -237,9 +225,26 @@ const Main = () => {
                 whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 >
-                    About.
+                    About
                 </motion.h2>
             </ABOUT>
+            <Contact target="_blank" href="mailto:codebucks27@gmail.com">
+                <motion.h2
+                initial={{
+                    y:-200,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                whileHover={{scale: 1.1}}
+                whileTap={{scale: 0.9}}
+                
+                >
+                    Contact
+                </motion.h2>
+            </Contact>
             <SKILLS to="/skills">
                 <motion.h2
                 initial={{
@@ -253,7 +258,7 @@ const Main = () => {
                 whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 >
-                    My Skills.
+                    My Skills
                 </motion.h2>
             </SKILLS>
 
