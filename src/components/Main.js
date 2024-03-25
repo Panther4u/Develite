@@ -23,6 +23,7 @@ h2,h3,h4,h5,h6{
     font-weight:500;
     font-size:18px;
     color:#fff;
+    letter-spacing: 0.5px;
 }
 `
 const VideoContainer = styled.div`

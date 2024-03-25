@@ -8,18 +8,20 @@ import { DarkTheme } from '../components/Themes'
 const Logo = styled.h1`
 display: inline-block;
 color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
-font-family: 'Pacifico',cursive;
+font-family: Poppins;
 color:white;
 position: fixed;
-left: 6rem;
+left: 2rem;
 top: 1.2rem;
 z-index:3;
+letter-spacing: 13px;
+font-weight: 400;
 `
 
 const LogoComponent = (props) => {
     return (
         <Logo color={props.theme}>
-          DL
+          DEVELITE
         </Logo>
     )
 }

@@ -28,6 +28,7 @@ export const DarkTheme1= {
 }
 
 
+
 // export const lightTheme = {
 
 //     body:"#D1CFE0",
