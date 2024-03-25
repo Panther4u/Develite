@@ -19,7 +19,7 @@ function App() {
       <GlobalStyle />
 
       <ThemeProvider theme={lightTheme}>
-        <SoundBar />
+        {/* <SoundBar /> */}
 
         {/* For framer-motion animation on page change! */}
         {/* Changed prop from exitBefore to mode */}

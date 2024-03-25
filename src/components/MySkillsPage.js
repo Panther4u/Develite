@@ -113,7 +113,10 @@ I love to create design which speaks, Keep it clean, minimal and simple.
 <strong>Tools</strong>
 <ul>
     <li>
-       Figma
+        Figma
+    </li>
+    <li>
+        Adobe Photoshop
     </li>
     
 </ul>
@@ -130,13 +133,13 @@ I value business or brand for which i'm creating, thus i enjoy bringing new idea
 <Description>
 <strong>Skills</strong>
 <p>
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
+Html, Css, Js, React, Bootstrap, MongoDB etc.
 </p>
 </Description>
 <Description>
 <strong>Tools</strong>
 <p>
-VScode, Github, Codepen etc.
+VScode, Github etc.
 </p>
 </Description>
 

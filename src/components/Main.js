@@ -7,22 +7,45 @@ import PowerButton from '../subComponents/PowerButton'
 import SocialIcons from '../subComponents/SocialIcons'
 import { YinYang } from './AllSvgs'
 import Intro from './Intro'
-;
+import Video from '../assets/video/video.mp4'
 
 
 const MainContainer = styled.div`
-background: ${props => props.theme.body};
 width: 100vw;
 height: 100vh;
 overflow:hidden;
 
+
 position: relative;
 
 h2,h3,h4,h5,h6{
-  font-family:'Karla', sans-serif ;
-  font-weight:500;
+    font-family: Poppins ;
+    font-weight:500;
+    font-size:18px;
 }
 `
+const VideoContainer = styled.div`
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+`;
+
+const VideoBackground = styled.video`
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+`;
+
+const BlackOverlay = styled.div`
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0) /* Adjust the opacity here */
+`;
 
 const Container = styled.div`
 padding: 2rem;
@@ -31,7 +54,7 @@ padding: 2rem;
 const Contact = styled.a`
 color: ${props => props.theme.text};
 position: absolute;
-top: 2rem;
+top: 1.2rem;
 right: calc(1rem + 2vw);
 text-decoration: none;
 z-index:1;
@@ -96,7 +119,7 @@ border: none;
 outline: none;
 background-color: transparent;
 cursor: pointer;
-
+color: #fff;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -134,12 +157,18 @@ const Main = () => {
 
     return (
         <MainContainer>
-         <DarkDiv   click={click}/>
+            <VideoContainer>
+                <VideoBackground autoPlay loop muted preload="auto" playbackRate={0.1} >
+                    <source src={Video} type="video/mp4" />
+                </VideoBackground>
+            </VideoContainer>
+            <BlackOverlay />
+        <DarkDiv   click={click}/>
             <Container>
             <PowerButton />
             <LogoComponent theme={click ? 'dark' :'light'}/>
             <SocialIcons theme={click ? 'dark' :'light'} />
-           
+
             <Center click={click}>
                 <YinYang  onClick={()=> handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
                 <span>click here</span>
@@ -175,7 +204,7 @@ const Main = () => {
                 whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 >
-                    Blog
+                    Price
                 </motion.h2>
             </BLOG>
             <WORK to="/work" click={+click}>
@@ -188,7 +217,7 @@ const Main = () => {
                     y:0,
                     transition: { type:'spring', duration: 1.5, delay:1}
                 }}
-                 whileHover={{scale: 1.1}}
+                whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 >
                     Work
@@ -205,7 +234,7 @@ const Main = () => {
                     y:0,
                     transition: { type:'spring', duration: 1.5, delay:1}
                 }}
-                 whileHover={{scale: 1.1}}
+                whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 >
                     About.
@@ -221,7 +250,7 @@ const Main = () => {
                     y:0,
                     transition: { type:'spring', duration: 1.5, delay:1}
                 }}
-                 whileHover={{scale: 1.1}}
+                whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 >
                     My Skills.

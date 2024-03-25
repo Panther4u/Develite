@@ -8,7 +8,7 @@ display:flex;
 cursor:pointer;
 position:fixed;
 left:8rem;
-top:3rem;
+top:2.5rem;
 z-index:10;
 
 &>*:nth-child(1){

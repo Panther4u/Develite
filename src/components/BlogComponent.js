@@ -4,7 +4,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Box = styled(motion.a)`
-  width: calc(10rem + 15vw);
+  width: auto;
   text-decoration: none;
   height: 20rem;
   padding: 1rem;

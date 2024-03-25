@@ -4,7 +4,7 @@ import App from './App'
 // import '../node_modules/normalize.css'
 import "normalize.css"
 import { createRoot } from 'react-dom/client';
-
+import "bootstrap";
 import { BrowserRouter } from 'react-router-dom'
 
 
