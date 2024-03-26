@@ -8,7 +8,7 @@ export const Work = [
         tags:["HTML","CSS","Bootstrap"],
         
         demo:"https://panther4u.github.io/Portfolio-Kavi/",
-        github:"https://github.com/Panther4u/Portfolio-Kavi"
+        // github:"https://github.com/Panther4u/Portfolio-Kavi"
     },
     {
         id:2,
@@ -16,8 +16,8 @@ export const Work = [
         description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
         tags:["react","gsap","styledComponents"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://panther4u.github.io/Demo-WebSite/",
+        // github:"https://github.com/codebucks27/Agency-website"
     },
     {
         id:3,
