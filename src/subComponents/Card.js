@@ -7,7 +7,7 @@ import { Github } from '../components/AllSvgs';
 
 
 const Box = styled(motion.li)`
-width: 16rem;
+width: 17rem;
 height: 40vh;
 background-color: ${props => props.theme.text};
 color:${props => props.theme.body};
@@ -59,7 +59,7 @@ const Link = styled.a`
 background-color: ${props =>props.theme.body};
 color: ${props =>props.theme.text};
 text-decoration: none;
-padding:0.5rem calc(2rem + 2vw);
+padding:0.5rem calc(3rem + 2vw);
 border-radius: 0 0 0 50px;
 font-size:calc(1em + 0.5vw);
 
@@ -116,9 +116,9 @@ const Card = (props) => {
                 <Link href={demo} target="_blank">
                     Visit
                 </Link>
-                <Git  href={github}  target="_blank">
+                {/* <Git  href={github}  target="_blank">
                     <Github width={30} height={30} />
-                </Git>
+                </Git> */}
             </Footer>
         </Box>
     )

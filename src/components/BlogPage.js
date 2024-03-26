@@ -1,11 +1,115 @@
+// import React, { useEffect, useState } from 'react'
+// import styled from 'styled-components'
+// import img from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg"
+// import LogoComponent from '../subComponents/LogoComponent'
+// import SocialIcons  from '../subComponents/SocialIcons'
+// import PowerButton  from '../subComponents/PowerButton'
+
+// import {Blogs} from '../data/BlogData';
+// import BlogComponent from './BlogComponent'
+// import AnchorComponent from '../subComponents/Anchor'
+// import BigTitle from "../subComponents/BigTitlte"
+// import { motion } from 'framer-motion'
+
+
+// const MainContainer = styled(motion.div)`
+// background-image: url(${img});
+// background-size: cover;
+// background-repeat: no-repeat;
+// background-attachment: fixed;
+// background-position: center;
+// `
+// const Container = styled.div`
+// background-color: ${props => `rgba(${props.theme.bodyRgba},0.8)`};
+// width: 100%;
+// height:auto;
+
+// position: relative;
+// padding-bottom: 5rem;
+// `
+
+// const Center = styled.div`
+// display: flex;
+// justify-content: center;
+// align-items: center;
+// padding-top: 10rem;
+// `
+
+// const Grid = styled.div`
+// display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* responsive grid */
+//     grid-gap: 1rem;
+//     padding: 0 1rem; /* Add padding for small screens */
+// `
+
+// // Framer-motion config
+// const container = {
+
+//     hidden: {opacity:0},
+//     show: {
+//       opacity:1,
+  
+//       transition:{
+//         staggerChildren: 0.5,
+//         duration: 0.5,
+//       }
+//     }
+  
+//   }
+
+// const BlogPage = () => {
+
+//     const [numbers, setNumbers] = useState(0);
+
+//     useEffect(() => {
+//         let num = (window.innerHeight - 70)/30;
+//         setNumbers(parseInt(num));
+//     }, [])
+
+
+//     return (
+//         <MainContainer
+//         variants={container}
+//         initial='hidden'
+//         animate='show'
+//         exit={{
+//             opacity:0, transition:{duration: 0.5}
+//         }}
+//         >
+//             <Container>
+//                 <LogoComponent />
+//                 <PowerButton />
+//                 <SocialIcons />
+//                 <AnchorComponent number={numbers}/>
+// <Center>
+// <Grid>
+
+// {
+//     Blogs.map(blog => {
+//         return <BlogComponent key={blog.id} blog={blog} />
+//     })
+// }
+// </Grid>
+
+// </Center>
+// <BigTitle text="BLOG" top="5rem" left="5rem" />
+//             </Container>
+//         </MainContainer>
+//     )
+// }
+
+// export default BlogPage
+
+
+
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import img from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg"
 import LogoComponent from '../subComponents/LogoComponent'
 import SocialIcons  from '../subComponents/SocialIcons'
 import PowerButton  from '../subComponents/PowerButton'
-
-import {Blogs} from '../data/BlogData';
+import '../../src/blog.css'
+import { BlogData } from '../data/BlogData'
 import BlogComponent from './BlogComponent'
 import AnchorComponent from '../subComponents/Anchor'
 import BigTitle from "../subComponents/BigTitlte"
@@ -35,12 +139,7 @@ align-items: center;
 padding-top: 10rem;
 `
 
-const Grid = styled.div`
-display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* responsive grid */
-    grid-gap: 1rem;
-    padding: 0 1rem; /* Add padding for small screens */
-`
+
 
 // Framer-motion config
 const container = {
@@ -66,9 +165,9 @@ const BlogPage = () => {
         setNumbers(parseInt(num));
     }, [])
 
-
-    return (
-        <MainContainer
+    return(
+        <>
+                <MainContainer
         variants={container}
         initial='hidden'
         animate='show'
@@ -81,21 +180,48 @@ const BlogPage = () => {
                 <PowerButton />
                 <SocialIcons />
                 <AnchorComponent number={numbers}/>
-<Center>
-<Grid>
-
-{
-    Blogs.map(blog => {
-        return <BlogComponent key={blog.id} blog={blog} />
-    })
-}
-</Grid>
-
-</Center>
-<BigTitle text="BLOG" top="5rem" left="5rem" />
+                <Center>
+                    <section className="pricing-section">
+                            <div className="container">
+                                <div className="sec-title text-center">
+                                    <span className="title">Get plan</span>
+                                    <h2>Choose a Plan</h2>
+                                </div>
+                                <div className="outer-box">
+                                    <div className="row">
+                                        {BlogData.map(blog => (
+                                            <div key={blog.id} className="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                                                <div className="inner-box">
+                                                    <div className="icon-box">
+                                                        <div className="icon-outer"><i className={blog.icon} aria-hidden="true"></i></div>
+                                                    </div>
+                                                    <div className="price-box">
+                                                        <div className="title">{blog.title}</div>
+                                                        <h4 className="price">{blog.price}</h4>
+                                                    </div>
+                                                    <ul className="features">
+                                                        {blog.features.map((feature, index) => (
+                                                            <li key={index} className={feature.available ? 'true' : 'false'}>{feature.text}</li>
+                                                        ))}
+                                                    </ul>
+                                                    <div className="btn-box">
+                                                        <a href={blog.link} className="theme-btn">BUY plan</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                </Center>
+                <BigTitle text="PRICE" top="5rem" left="5rem" />
             </Container>
         </MainContainer>
+
+    </> 
     )
+
 }
 
 export default BlogPage

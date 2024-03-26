@@ -46,7 +46,7 @@ const BlackOverlay = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.2) /* Adjust the opacity here */
+    background-color: rgba(0,0,0,0.4) /* Adjust the opacity here */
 `;
 
 const Container = styled.div`
