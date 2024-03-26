@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
-import {lightTheme} from './Themes';
+import {DarkTheme, lightTheme} from './Themes';
 import { Design, Develope} from './AllSvgs';
 
 
@@ -26,9 +26,9 @@ const Main = styled.div`
 border: 2px solid ${props => props.theme.text};
 color: ${props => props.theme.text};
 background-color: ${props => props.theme.body};
-padding: 2rem;
-width: 30vw;
-height: 60vh;
+padding: 1.5rem;
+width: 40vw;
+height: 70vh;
 z-index:3;
 line-height: 1.5;
 cursor: pointer;
@@ -84,13 +84,13 @@ ul,p{
 
 const MySkillsPage = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+        <ThemeProvider theme={DarkTheme}>
 <Box>
 
 <LogoComponent theme='light'/>
 <SocialIcons theme='light'/>
 <PowerButton />
-<ParticleComponent theme='light' />
+<ParticleComponent theme='dark' />
             <Main>
 <Title>
     <Design width={40} height={40} /> Designer

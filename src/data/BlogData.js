@@ -80,7 +80,7 @@ export const BlogData = [
         price: 'Rs.15000/-', 
         features: [
             { text: '10 Page (Dynamic Website)', available: true },
-            { text: 'custom coded Template (HTML 5/ CSS3)', available: true },
+            { text: 'custom coded Template (HTML 5/ CSS3 / Bootstrap 5)', available: true },
             { text: 'Payment Gateway Integration', available: true },
             { text: 'Secure & Password protected Admin Panel', available: false },
             { text: '1 Enquiry or Contact form', available: true },

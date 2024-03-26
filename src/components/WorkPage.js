@@ -11,11 +11,12 @@ import { Work } from "../data/WorkData";
 import Card from "../subComponents/Card";
 import { YinYang } from "./AllSvgs";
 import BigTitlte from "../subComponents/BigTitlte";
+import ParticlesComponent from "../subComponents/ParticleComponent";
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
 
-  height: 400vh;
+  height: 450vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -27,7 +28,6 @@ const Main = styled(motion.ul)`
   left: calc(10rem + 15vw);
   height: 40vh;
   display: flex;
-
   color: white;
 `;
 const Rotate = styled.span`
@@ -79,7 +79,7 @@ const WorkPage = () => {
         <LogoComponent theme="dark" />
         <SocialIcons theme="dark" />
         <PowerButton />
-
+        <ParticlesComponent theme='dark' />
         <Main ref={ref} variants={container} initial="hidden" animate="show">
           {Work.map((d) => (
             <Card key={d.id} data={d} />

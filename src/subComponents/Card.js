@@ -7,12 +7,12 @@ import { Github } from '../components/AllSvgs';
 
 
 const Box = styled(motion.li)`
-width: 17rem;
-height: 40vh;
+width: 25rem;
+height: 50vh;
 background-color: ${props => props.theme.text};
 color:${props => props.theme.body};
-padding: 1.5rem 2rem;
-margin-right: 8rem;
+padding: 1.5rem 1.5rem;
+margin-right: 4rem;
 border-radius: 0 50px 0 50px;
 display: flex;
 flex-direction: column;
@@ -29,6 +29,7 @@ border: 1px solid ${props => props.theme.text};
 `
 const Title = styled.h2`
 font-size: calc(1em + 0.5vw);
+font-weight: 600;
 `
 
 const Description = styled.h2`
@@ -59,9 +60,10 @@ const Link = styled.a`
 background-color: ${props =>props.theme.body};
 color: ${props =>props.theme.text};
 text-decoration: none;
-padding:0.5rem calc(3rem + 2vw);
-border-radius: 0 0 0 50px;
+text-align: center;
+padding: 0.5rem 10rem;
 font-size:calc(1em + 0.5vw);
+border-radius: 5px;
 
 ${Box}:hover &{
     background-color: ${props =>props.theme.text};
@@ -70,16 +72,31 @@ ${Box}:hover &{
 }
 `
 
-const Git = styled.a`
-color: inherit;
-text-decoration: none;
-${Box}:hover &{
-    &>*{
-        fill:${props =>props.theme.text};
-    }
-}
 
-`
+const Image = styled.div`
+  background-image: ${(props) => `url(${props.img})`};
+  width: 100%;
+  height: 60%;
+  background-size: cover;
+  border: 1px solid transparent;
+  background-position: center center;
+  border-radius: 10px;
+
+  ${Box}:hover & {
+    border: 1px solid ${(props) => props.theme.body};
+  }
+`;
+
+// const Git = styled.a`
+// color: inherit;
+// text-decoration: none;
+// ${Box}:hover &{
+//     &>*{
+//         fill:${props =>props.theme.text};
+//     }
+// }
+
+// `
 
 // Framer motion configuration
 const Item = {
@@ -97,14 +114,15 @@ const Item = {
 
 const Card = (props) => {
 
-    const {id, name, description, tags, demo, github} = props.data;
+    const {id, name, description, tags, demo, github, imgSrc} = props.data;
 
     return (
         <Box key={id} variants={Item}>
             <Title>{name}</Title>
-            <Description>
+            {/* <Description>
                 {description}
-            </Description>
+            </Description> */}
+            <Image img={imgSrc} />
             <Tags>
             {
                     tags.map((t,id) => {
@@ -116,9 +134,9 @@ const Card = (props) => {
                 <Link href={demo} target="_blank">
                     Visit
                 </Link>
-                <Git  href={github}  target="_blank">
+                {/* <Git  href={github}  target="_blank">
                     <Github width={30} height={30} />
-                </Git>
+                </Git> */}
             </Footer>
         </Box>
     )

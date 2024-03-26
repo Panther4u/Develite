@@ -232,7 +232,7 @@ const Main = () => {
             <Contact target="_blank" href="mailto:codebucks27@gmail.com">
                 <motion.h2
                 initial={{
-                    y:-200,
+                    y:200,
                     transition: { type:'spring', duration: 1.5, delay:1}
                 }}
                 animate={{
@@ -241,7 +241,6 @@ const Main = () => {
                 }}
                 whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
-                
                 >
                     Contact
                 </motion.h2>

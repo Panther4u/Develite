@@ -6,7 +6,7 @@ export const Work = [
         name:"Portfolio Website",
         description:"It is build on top of the HTML, CSS And Bootstrap used responsible Website Create.",
         tags:["HTML","CSS","Bootstrap"],
-        
+
         demo:"https://panther4u.github.io/Portfolio-Kavi/",
         // github:"https://github.com/Panther4u/Portfolio-Kavi"
     },
@@ -15,7 +15,7 @@ export const Work = [
         name:"Agency Landing Page",
         description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
         tags:["react","gsap","styledComponents"],
-        
+        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
         demo:"https://panther4u.github.io/Demo-WebSite/",
         // github:"https://github.com/codebucks27/Agency-website"
     },
