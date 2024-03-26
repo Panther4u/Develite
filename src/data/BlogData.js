@@ -50,7 +50,7 @@
 //         link:"https://codebucks.hashnode.dev/pagination-in-react"
 
 //     },
-   
+
 //     {
 //         id:7,
 //         name:"What is Redux ? Simply Explained!",
@@ -67,7 +67,7 @@
 //         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
 //         link:"https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3"
 //     },
-  
+
 // ] 
 
 
@@ -76,42 +76,60 @@
 export const BlogData = [
     { 
         id: 1, 
-        title: 'Day Pass', 
-        price: '$35.99', 
+        title: 'Basic Package', 
+        price: 'Rs.15000/-', 
         features: [
-            { text: 'Conference plans ', available: true },
-            { text: 'Free Lunch And Coffee', available: true },
-            { text: 'Certificate', available: true },
-            { text: 'Easy Access', available: false },
-            { text: 'Free Contacts', available: false }
+            { text: '10 Page (Dynamic Website)', available: true },
+            { text: 'custom coded Template (HTML 5/ CSS3)', available: true },
+            { text: 'Payment Gateway Integration', available: true },
+            { text: 'Secure & Password protected Admin Panel', available: false },
+            { text: '1 Enquiry or Contact form', available: true },
+            { text: 'SSL Certificate', available: false },
+            { text: 'Easy AccessPremium Web Hosting Package', available: false },
+            { text: '100% Responsive Website', available: true },
+            { text: '1st Year Domain free', available: true },
+            { text: '1st Year Web Hosting free', available: true },
+            { text: '1st Year - free site maintenance', available: true }
         ],
         icon: 'fa fa-paper-plane', // Font Awesome icon class for paper plane
         link: 'https://codepen.io/anupkumar92'
     },
     { 
         id: 2, 
-        title: 'Full Pass', 
-        price: '$99.99', 
+        title: 'Business Package', 
+        price: 'Rs.35000/-', 
         features: [
-            { text: 'Conference plans', available: true },
-            { text: 'Free Lunch And Coffee', available: true },
-            { text: 'Certificate', available: true },
-            { text: 'Easy Access', available: true },
-            { text: 'Free Contacts', available: false }
+            { text: '15 Page (Dynamic Website)', available: true },
+            { text: 'custom coded Template (HTML 5/ CSS3)', available: true },
+            { text: 'Payment Gateway Integration', available: true },
+            { text: 'Secure & Password protected Admin Panel', available: true },
+            { text: 'Upto 3 Dynamic forms (Contact Us/ Enquiry/ Order form etc.)', available: true },
+            { text: 'SSL Certificate', available: false },
+            { text: 'Easy AccessPremium Web Hosting Package', available: true },
+            { text: '100% Responsive Website', available: true },
+            { text: '1st Year Domain free', available: true },
+            { text: '1st Year Web Hosting free', available: true },
+            { text: '1st Year - free site maintenance', available: true }
         ],
         icon: 'fas fa-gem', // Font Awesome icon class for gem
         link: 'https://codepen.io/anupkumar92'
     },
     { 
         id: 3, 
-        title: 'Group Pass', 
-        price: '$199.99', 
+        title: 'Custom Web Application', 
+        price: 'Contact for Quote', 
         features: [
-            { text: 'Conference plans', available: true },
-            { text: 'Free Lunch And Coffee', available: true },
-            { text: 'Certificate', available: true },
-            { text: 'Easy Access', available: true },
-            { text: 'Free Contacts', available: true }
+            { text: '20 Page (Dynamic Website)', available: true },
+            { text: 'custom coded Template (HTML5/ CSS3/ Bootstrap5/ React)', available: true },
+            { text: 'Payment Gateway Integration', available: true },
+            { text: 'Secure & Password protected Admin Panel', available: true },
+            { text: 'Unlimited Dynamic forms', available: true },
+            { text: 'SSL Certificate', available: true },
+            { text: 'Easy AccessPremium Web Hosting Package', available: true },
+            { text: '100% Responsive Website', available: true },
+            { text: '1st Year Domain free', available: true },
+            { text: '1st Year Web Hosting free', available: true },
+            { text: '1st Year - free site maintenance', available: true }
         ],
         icon: 'fas fa-rocket', // Font Awesome icon class for rocket
         link: 'https://codepen.io/anupkumar92'
