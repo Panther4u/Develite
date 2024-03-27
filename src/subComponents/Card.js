@@ -114,7 +114,7 @@ const Item = {
 
 const Card = (props) => {
 
-    const {id, name, description, tags, demo, github, imgSrc} = props.data;
+    const {id, name, description, tags, demo, github, img} = props.data;
 
     return (
         <Box key={id} variants={Item}>
@@ -122,7 +122,7 @@ const Card = (props) => {
             {/* <Description>
                 {description}
             </Description> */}
-            <Image img={imgSrc} />
+            <Image img={img} />
             <Tags>
             {
                     tags.map((t,id) => {

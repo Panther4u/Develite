@@ -2,15 +2,15 @@ import React from 'react'
 import styled, { keyframes } from 'styled-components'
 import { DarkTheme } from '../components/Themes'
 
-// Define the animation
-const slideInFromLeft = keyframes`
+// Define the new animation
+const fadeInScale = keyframes`
   from {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: scale(0.5);
   }
   to {
     opacity: 1;
-    transform: translateX(0);
+    transform: scale(1);
   }
 `;
 
@@ -26,8 +26,8 @@ const Logo = styled.h1`
   letter-spacing: 13px;
   font-weight: 400;
 
-  /* Apply animation */
-  animation: ${slideInFromLeft} 2s ease-in-out;
+  /* Apply the new animation */
+  animation: ${fadeInScale} 2s ease-in-out;
 `
 
 const LogoComponent = (props) => {
