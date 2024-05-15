@@ -71,12 +71,31 @@
 // ] 
 
 
-
 // Assuming you have blogData array imported or defined somewhere
 export const BlogData = [
     { 
         id: 1, 
         title: 'Basic Package', 
+        price: 'Rs.5000/-', 
+        features: [
+            { text: 'Single Page', available: true },
+            { text: 'custom coded Template (HTML 5/ CSS3 / Bootstrap 5)', available: true },
+            { text: 'Payment Gateway Integration', available: false },
+            { text: 'Secure & Password protected Admin Panel', available: false },
+            { text: '1 Enquiry or Contact form', available: false },
+            { text: 'SSL Certificate', available: false },
+            { text: 'Easy AccessPremium Web Hosting Package', available: false },
+            { text: '100% Responsive Website', available: true },
+            { text: '1st Year Domain free', available: false },
+            { text: '1st Year Web Hosting free', available: false },
+            { text: '1st Year - free site maintenance', available: false }
+        ],
+        icon: 'fa fa-paper-plane', // Font Awesome icon class for paper plane
+        // link: 'https://codepen.io/anupkumar92'
+    },
+    { 
+        id: 2, 
+        title: 'Business Package', 
         price: 'Rs.15000/-', 
         features: [
             { text: '10 Page (Dynamic Website)', available: true },
@@ -92,15 +111,15 @@ export const BlogData = [
             { text: '1st Year - free site maintenance', available: true }
         ],
         icon: 'fa fa-paper-plane', // Font Awesome icon class for paper plane
-        link: 'https://codepen.io/anupkumar92'
+        // link: 'https://codepen.io/anupkumar92'
     },
     { 
-        id: 2, 
-        title: 'Business Package', 
+        id: 3, 
+        title: 'Advanced Package', 
         price: 'Rs.35000/-', 
         features: [
             { text: '15 Page (Dynamic Website)', available: true },
-            { text: 'custom coded Template (HTML 5/ CSS3)', available: true },
+            { text: 'custom coded Template (HTML 5/ CSS3/ Bootstrap5/ React)', available: true },
             { text: 'Payment Gateway Integration', available: true },
             { text: 'Secure & Password protected Admin Panel', available: true },
             { text: 'Upto 3 Dynamic forms (Contact Us/ Enquiry/ Order form etc.)', available: true },
@@ -112,31 +131,11 @@ export const BlogData = [
             { text: '1st Year - free site maintenance', available: true }
         ],
         icon: 'fas fa-gem', // Font Awesome icon class for gem
-        link: 'https://codepen.io/anupkumar92'
-    },
-    { 
-        id: 3, 
-        title: 'Custom Web Application', 
-        price: 'Contact for Quote', 
-        features: [
-            { text: '20 Page (Dynamic Website)', available: true },
-            { text: 'custom coded Template (HTML5/ CSS3/ Bootstrap5/ React)', available: true },
-            { text: 'Payment Gateway Integration', available: true },
-            { text: 'Secure & Password protected Admin Panel', available: true },
-            { text: 'Unlimited Dynamic forms', available: true },
-            { text: 'SSL Certificate', available: true },
-            { text: 'Easy AccessPremium Web Hosting Package', available: true },
-            { text: '100% Responsive Website', available: true },
-            { text: '1st Year Domain free', available: true },
-            { text: '1st Year Web Hosting free', available: true },
-            { text: '1st Year - free site maintenance', available: true }
-        ],
-        icon: 'fas fa-rocket', // Font Awesome icon class for rocket
-        link: 'https://codepen.io/anupkumar92'
+        // link: 'https://codepen.io/anupkumar92'
     },
     { 
         id: 4, 
-        title: 'Custom Web Application', 
+        title: 'Custom Advanced Web Application', 
         price: 'Contact for Quote', 
         features: [
             { text: '20 Page (Dynamic Website)', available: true },
@@ -152,6 +151,6 @@ export const BlogData = [
             { text: '1st Year - free site maintenance', available: true }
         ],
         icon: 'fas fa-rocket', // Font Awesome icon class for rocket
-        link: 'https://codepen.io/anupkumar92'
+        // link: 'https://codepen.io/anupkumar92'
     }
 ];
