@@ -10,7 +10,7 @@ import AboutPage from "./components/AboutPage";
 import BlogPage from "./components/BlogPage";
 import WorkPage from "./components/WorkPage";
 import MySkillsPage from "./components/MySkillsPage";
-import SoundBar from "./subComponents/SoundBar";
+// import SoundBar from "./subComponents/SoundBar";
 
 function App() {
   const location = useLocation();
@@ -44,7 +44,7 @@ you can add custom 404 component or message instead of Main component*/}
             <Route path="*" element={<Main />} />
           </Routes>
         </AnimatePresence>
-      </ThemeProvider>
+      </ThemeProvider>``
     </>
   );
 }
