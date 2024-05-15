@@ -229,7 +229,7 @@ const BlogPage = () => {
                                 <div className="outer-box">
                                     <div className="row">
                                         {BlogData.map(blog => (
-                                            <div key={blog.id} className="pricing-block col-lg-4 col-md-6 col-xs-12 col-xl-4 col-sm-12 wow fadeInUp">
+                                            <div key={blog.id} className="pricing-block col-lg-4 col-md-6 col-xs-12 col-xl-3 col-sm-12 wow fadeInUp">
                                                 <div className="inner-box">
                                                     <div className="icon-box">
                                                         <div className="icon-outer"><i className={blog.icon} aria-hidden="true"></i></div>

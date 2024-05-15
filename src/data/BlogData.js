@@ -133,5 +133,25 @@ export const BlogData = [
         ],
         icon: 'fas fa-rocket', // Font Awesome icon class for rocket
         link: 'https://codepen.io/anupkumar92'
+    },
+    { 
+        id: 4, 
+        title: 'Custom Web Application', 
+        price: 'Contact for Quote', 
+        features: [
+            { text: '20 Page (Dynamic Website)', available: true },
+            { text: 'custom coded Template (HTML5/ CSS3/ Bootstrap5/ React)', available: true },
+            { text: 'Payment Gateway Integration', available: true },
+            { text: 'Secure & Password protected Admin Panel', available: true },
+            { text: 'Unlimited Dynamic forms', available: true },
+            { text: 'SSL Certificate', available: true },
+            { text: 'Easy AccessPremium Web Hosting Package', available: true },
+            { text: '100% Responsive Website', available: true },
+            { text: '1st Year Domain free', available: true },
+            { text: '1st Year Web Hosting free', available: true },
+            { text: '1st Year - free site maintenance', available: true }
+        ],
+        icon: 'fas fa-rocket', // Font Awesome icon class for rocket
+        link: 'https://codepen.io/anupkumar92'
     }
 ];
