@@ -49,15 +49,16 @@ const Title = styled.h3`
     border-bottom: 1px solid ${(props) => props.theme.body};
   }
 `;
-const HashTags = styled.div`
-  padding: 0.5rem 0;
-`;
-const Tag = styled.span`
+// const HashTags = styled.div`
+//   padding: 0.5rem 0;
+// `;
+const Button = styled.span`
   padding-right: 0.5rem;
+  
 `;
-const Date = styled.span`
-  padding: 0.5rem 0;
-`;
+// const Date = styled.span`
+//   padding: 0.5rem 0;
+// `;
 
 const Container = styled(motion.div)``;
 
@@ -76,18 +77,19 @@ const Item = {
 };
 
 const BlogComponent = (props) => {
-  const { name, tags, date, imgSrc, link } = props.blog;
+  // const { name, tags, date, imgSrc, link } = props.blog;
+  const { name, tags, imgSrc, link } = props.blog;
   return (
     <Container variants={Item}>
       <Box target="_blank" href={`${link}`}>
         <Image img={imgSrc} />
         <Title>{name}</Title>
-        <HashTags>
+        
           {tags.map((t, id) => {
-            return <Tag key={id}>#{t}</Tag>;
+            return <Button key={id}>{t}....</Button>;
           })}
-        </HashTags>
-        <Date>{date}</Date>
+
+        {/* <Date>{date}</Date> */}
       </Box>
     </Container>
   );

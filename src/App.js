@@ -10,6 +10,7 @@ import AboutPage from "./components/AboutPage";
 import BlogPage from "./components/BlogPage";
 import WorkPage from "./components/WorkPage";
 import MySkillsPage from "./components/MySkillsPage";
+import PricePage from "./components/PricePage";
 // import SoundBar from "./subComponents/SoundBar";
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
 
             <Route path="/about" element={<AboutPage />} />
 
-            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/price" element={<PricePage />} />
 
             <Route path="/work" element={<WorkPage />} />
 

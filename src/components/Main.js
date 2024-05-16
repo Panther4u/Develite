@@ -180,7 +180,7 @@ const Main = () => {
             </Center>
 
 
-            <BLOG to="/blog">
+            <BLOG to="/price">
                 <motion.h2
                 initial={{
                     y:-200,
