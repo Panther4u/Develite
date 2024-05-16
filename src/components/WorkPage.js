@@ -17,7 +17,8 @@ import BlogComponent from './BlogComponent';
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
-
+  padding-left:20px;
+  padding-right:20px;
   position: relative;
   display: flex;
   align-items: center;
