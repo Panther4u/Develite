@@ -105,7 +105,7 @@ I love to create design which speaks, Keep it clean, minimal and simple.
         Web Design
     </li>
     <li>
-        Mobile Apps
+        Logo Design
     </li>
 </ul>
 </Description>
@@ -118,7 +118,9 @@ I love to create design which speaks, Keep it clean, minimal and simple.
     <li>
         Adobe Photoshop
     </li>
-    
+    <li>
+        Adobe Illustrator 
+    </li>
 </ul>
 </Description>
 

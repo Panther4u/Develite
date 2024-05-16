@@ -114,9 +114,9 @@ export const PriceData = [
         title: 'Business Package', 
         price: 'Rs.15000/-', 
         features: [
-            { text: '10 Page (Dynamic Website)', available: true },
+            { text: '5 Page (Dynamic Website)', available: true },
             { text: 'custom coded Template (HTML 5/ CSS3 / Bootstrap 5)', available: true },
-            { text: 'Payment Gateway Integration', available: true },
+            { text: 'Payment Gateway Integration', available: false },
             { text: 'Secure & Password protected Admin Panel', available: false },
             { text: '1 Enquiry or Contact form', available: true },
             { text: 'SSL Certificate', available: false },
@@ -134,7 +134,7 @@ export const PriceData = [
         title: 'Advanced Package', 
         price: 'Rs.35000/-', 
         features: [
-            { text: '15 Page (Dynamic Website)', available: true },
+            { text: '10 Page (Dynamic Website)', available: true },
             { text: 'custom coded Template (HTML 5/ CSS3/ Bootstrap5/ React)', available: true },
             { text: 'Payment Gateway Integration', available: true },
             { text: 'Secure & Password protected Admin Panel', available: true },
@@ -154,7 +154,7 @@ export const PriceData = [
         title: 'Custom Advanced Web Application', 
         price: 'Contact for Quote', 
         features: [
-            { text: '20 Page (Dynamic Website)', available: true },
+            { text: 'Unlimited Page (Dynamic Website)', available: true },
             { text: 'custom coded Template (HTML5/ CSS3/ Bootstrap5/ React)', available: true },
             { text: 'Payment Gateway Integration', available: true },
             { text: 'Secure & Password protected Admin Panel', available: true },

@@ -96,7 +96,7 @@ img {
 /* Pricing Section Styles */
 .pricing-section {
     position: relative;
-    padding: 0 0 80px;
+    padding: 0 0 80px ;
     overflow: hidden;
     width: 100%;
     height: fit-content;
@@ -327,17 +327,26 @@ img {
     .pricing-section .outer-box {
         padding: 10px;
     }
+    .pricing-section {
+        padding: 0px 20px 0px 20px;
+    }
 }
 
 @media screen and (max-width: 1210px) {
     .pricing-section .outer-box {
         padding: 30px;
     }
+    .pricing-section {
+        padding: 0px 20px 0px 20px;
+    }
 }
 
 @media screen and (max-width: 900px) {
     .pricing-section {
         margin: 13px;
+    }
+    .pricing-section {
+        padding: 0px 20px 0px 20px;
     }
 }
 
