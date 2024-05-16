@@ -12,11 +12,12 @@ import Card from "../subComponents/Card";
 import { YinYang } from "./AllSvgs";
 import BigTitlte from "../subComponents/BigTitlte";
 import ParticlesComponent from "../subComponents/ParticleComponent";
+import { TemplateData } from '../data/BlogData';
+import BlogComponent from './BlogComponent';
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
 
-  height: 450vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -38,6 +39,12 @@ const Rotate = styled.span`
   width: 80px;
   height: 80px;
   z-index: 1;
+`;
+const Center = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
 `;
 
 // Framer-motion Configuration
@@ -80,11 +87,22 @@ const WorkPage = () => {
         <SocialIcons theme="dark" />
         <PowerButton />
         <ParticlesComponent theme='dark' />
-        <Main ref={ref} variants={container} initial="hidden" animate="show">
+        <Center>
+          <div className="row justify-content-center">
+            {
+              TemplateData.map(blog => (
+                <div className="col-lg-4 col-md-6 col-sm-12 mb-4 col-xl-3" key={blog.id}>
+                  <BlogComponent blog={blog} />
+                </div>
+              ))
+            }
+          </div>
+        </Center>
+        {/* <Main ref={ref} variants={container} initial="hidden" animate="show">
           {Work.map((d) => (
             <Card key={d.id} data={d} />
           ))}
-        </Main>
+        </Main> */}
         <Rotate ref={yinyang}>
           <YinYang width={80} height={80} fill={DarkTheme.text} />
         </Rotate>
