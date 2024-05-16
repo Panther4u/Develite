@@ -7,7 +7,7 @@ export const TemplateData = [
         tags:["More"],
         // date:"13 May, 2021",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        link:""
     },
     {
         id:2,
@@ -15,7 +15,7 @@ export const TemplateData = [
         tags:["More"],
         // date:"5 July, 2021",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://codebucks.hashnode.dev/react-hamburger-menu"
+        link:""
     },
     {
         id:3,
@@ -23,7 +23,7 @@ export const TemplateData = [
         tags:["More"],
         // date:"6 July, 2021",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://codebucks.hashnode.dev/react-loading-screens"
+        link:""
     },
     {
         id:4,
@@ -31,7 +31,7 @@ export const TemplateData = [
         tags:["More"],
         // date:"26 May, 2021",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-redux-react-todo-list-app-with-animations-using-framer-motion-1mp1"
+        link:""
     },
     {
         id:5,
@@ -39,7 +39,7 @@ export const TemplateData = [
         tags:["More"],
         // date:"3 Feb, 2021",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://codebucks.hashnode.dev/what-is-higher-order-component"
+        link:""
     },
     {
         id:6,
@@ -47,7 +47,7 @@ export const TemplateData = [
         tags:["More"],
         // date:"5 Jan, 2021",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://codebucks.hashnode.dev/pagination-in-react"
+        link:""
 
     },
 
@@ -57,7 +57,7 @@ export const TemplateData = [
         tags:["More"],
         // date:"16 May, 2021",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/what-is-redux-simply-explained-2ch7"
+        link:""
     },
     {
         id:8,
@@ -65,7 +65,7 @@ export const TemplateData = [
         tags:["More"],
         // date:"26 May, 2021",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3"
+        link:""
     },
     {
         id:8,
@@ -73,7 +73,7 @@ export const TemplateData = [
         tags:["More"],
         // date:"26 May, 2021",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3"
+        link:""
     },
     {
         id:8,
@@ -81,7 +81,7 @@ export const TemplateData = [
         tags:["More"],
         // date:"26 May, 2021",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3"
+        link:""
     },
 
 ] 

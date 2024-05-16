@@ -30,7 +30,7 @@ export const Work = [
         tags:["react","sass"],
         
         demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
+        // github:"https://github.com/codebucks27/react-job-listing-website"
         
     },
     {
@@ -40,7 +40,7 @@ export const Work = [
         tags:["react","api","sass"],
         
         demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        // github:"https://github.com/codebucks27/devto-clone"
     },
     {
         id:5,
@@ -49,7 +49,7 @@ export const Work = [
         tags:["react","styledComponents","react-router"],
         
         demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
+        // github:"https://github.com/codebucks27/react-sidebar"
     },
     {
         id:6,
@@ -58,7 +58,7 @@ export const Work = [
         tags:["react","redux","framer-motion"],
         
         demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
+        // github:"https://github.com/codebucks27/React-Redux-Todo-App"
         
     },
     {
@@ -68,7 +68,7 @@ export const Work = [
         tags:["react","react-router","css"],
         
         demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
+        // github:"https://github.com/codebucks27/React-responsive-navbar"
         
     },
 ] 
