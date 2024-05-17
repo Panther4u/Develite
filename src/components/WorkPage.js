@@ -89,7 +89,7 @@ const WorkPage = () => {
         <PowerButton />
         <ParticlesComponent theme='dark' />
         <Center>
-          <div className="row justify-content-center">
+          <div className="row justify-content-start">
             {
               TemplateData.map(blog => (
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-4 col-xl-3" key={blog.id}>

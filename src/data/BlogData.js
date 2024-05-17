@@ -1,4 +1,13 @@
 // blog data
+import Restaruant from "../assets/Images/Restaruant3.png"
+import Furniture1 from "../assets/Images/Furniture1.png"
+import Fitness1 from "../assets/Images/Fitness1.png"
+import Ecommerce1 from "../assets/Images/Ecommerce1.png"
+import Bakery2 from "../assets/Images/Bakery2.png"
+import Electronics1 from "../assets/Images/Electronics1.png"
+
+
+
 
 export const TemplateData = [
     {
@@ -6,82 +15,82 @@ export const TemplateData = [
         name:"E- Commerce",
         tags:["More"],
         // date:"13 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:""
+        img: Ecommerce1,
+        to: "/ecommerce" 
     },
     {
         id:2,
-        name:"Food",
+        name:"Bakery",
         tags:["More"],
         // date:"5 July, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:""
+        img: Bakery2,
+        to: "/restaurant" 
     },
     {
         id:3,
         name:"Fitness",
         tags:["More"],
         // date:"6 July, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:""
+        img: Fitness1,
+        to: "/fitness" 
     },
     {
         id:4,
         name:"Electronics",
         tags:["More"],
         // date:"26 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:""
+        img: Electronics1,
+        to: "/electronics" 
     },
     {
         id:5,
         name:"Travel",
         tags:["More"],
         // date:"3 Feb, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:""
+        img:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
+        to: "/restaurant" 
     },
     {
         id:6,
         name:"Construction",
         tags:["More"],
         // date:"5 Jan, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:""
+        img:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
+        to: "/restaurant" 
 
     },
 
     {
-        id:7,
-        name:"Restaurant",
-        tags:["More"],
-        // date:"16 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:""
+        id: 7,
+        name: "Restaurant",
+        tags: ["More"],
+        // date: "16 May, 2021",
+        img: Restaruant,
+        to: "/restaurant"  // Assuming the route is defined in your routing setup
     },
     {
         id:8,
-        name:"Educational",
+        name:"Furniture",
         tags:["More"],
         // date:"26 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:""
+        img: Furniture1,
+        to: "/furniture" 
     },
     {
         id:8,
         name:"Medical",
         tags:["More"],
         // date:"26 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:""
+        img:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
+        to: "/restaurant" 
     },
     {
         id:8,
         name:"Coffee Shop",
         tags:["More"],
         // date:"26 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:""
+        img:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
+        to: "/restaurant" 
     },
 
 ] 
@@ -107,7 +116,7 @@ export const PriceData = [
             { text: '1st Year - free site maintenance', available: false }
         ],
         icon: 'fa fa-paper-plane', // Font Awesome icon class for paper plane
-        // link: 'https://codepen.io/anupkumar92'
+        // to: 'https://codepen.io/anupkumar92'
     },
     { 
         id: 2, 
@@ -127,7 +136,7 @@ export const PriceData = [
             { text: '1st Year - free site maintenance', available: true }
         ],
         icon: 'fa fa-paper-plane', // Font Awesome icon class for paper plane
-        // link: 'https://codepen.io/anupkumar92'
+        // to: 'https://codepen.io/anupkumar92'
     },
     { 
         id: 3, 
@@ -147,7 +156,7 @@ export const PriceData = [
             { text: '1st Year - free site maintenance', available: true }
         ],
         icon: 'fas fa-gem', // Font Awesome icon class for gem
-        // link: 'https://codepen.io/anupkumar92'
+        // to: 'https://codepen.io/anupkumar92'
     },
     { 
         id: 4, 
@@ -167,6 +176,6 @@ export const PriceData = [
             { text: '1st Year - free site maintenance', available: true }
         ],
         icon: 'fas fa-rocket', // Font Awesome icon class for rocket
-        // link: 'https://codepen.io/anupkumar92'
+        // to: 'https://codepen.io/anupkumar92'
     }
 ];
