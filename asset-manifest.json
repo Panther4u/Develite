@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Develite/static/css/main.26fea5b0.css",
-    "main.js": "/Develite/static/js/main.acdc8c5e.js",
+    "main.js": "/Develite/static/js/main.723ff2ae.js",
     "static/media/video.mp4": "/Develite/static/media/video.87783cb4305fcea5ad28.mp4",
     "static/media/Bakery1.png": "/Develite/static/media/Bakery1.8ec028c99d7a7400cf2a.png",
     "static/media/Restaruant2.png": "/Develite/static/media/Restaruant2.bffea633b938eed2300e.png",
@@ -12,18 +12,16 @@
     "static/media/Restaruant3.png": "/Develite/static/media/Restaruant3.6adf66d6a47ee26593d4.png",
     "static/media/Ecommerce1.png": "/Develite/static/media/Ecommerce1.bf24c8fbe4ae10f4dc8c.png",
     "static/media/Electronics1.png": "/Develite/static/media/Electronics1.03d2f7e5e5bfecbdc7f2.png",
-    "static/media/Portfolio.png": "/Develite/static/media/Portfolio.92d1e1fc25f2deb0c520.png",
     "static/media/Fitness1.png": "/Develite/static/media/Fitness1.421c2a2ef3cff7a758c2.png",
-    "static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg": "/Develite/static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.8ca90014fb6ce5980110.jpg",
-    "static/media/Agency.png": "/Develite/static/media/Agency.639fc91a7d6fb794166b.png",
     "static/media/spaceman.png": "/Develite/static/media/spaceman.5ec7fcfa9a803ead726c.png",
+    "static/media/Logo.png": "/Develite/static/media/Logo.0077b53abe016b5a458e.png",
     "static/media/profile-img.png": "/Develite/static/media/profile-img.5179e446ac1a570ce69b.png",
     "index.html": "/Develite/index.html",
     "main.26fea5b0.css.map": "/Develite/static/css/main.26fea5b0.css.map",
-    "main.acdc8c5e.js.map": "/Develite/static/js/main.acdc8c5e.js.map"
+    "main.723ff2ae.js.map": "/Develite/static/js/main.723ff2ae.js.map"
   },
   "entrypoints": [
     "static/css/main.26fea5b0.css",
-    "static/js/main.acdc8c5e.js"
+    "static/js/main.723ff2ae.js"
   ]
 }
