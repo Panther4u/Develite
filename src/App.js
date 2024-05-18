@@ -68,7 +68,7 @@ import GlobalStyle from "./globalStyles";
 // Components
 import Main from "./components/Main";
 import AboutPage from "./components/AboutPage";
-import BlogPage from "./components/BlogPage";
+// import BlogPage from "./components/BlogPage";
 import WorkPage from "./components/WorkPage";
 import MySkillsPage from "./components/MySkillsPage";
 import PricePage from "./components/PricePage";

@@ -1,16 +1,16 @@
 
 import React, { useEffect, useState } from 'react'
 import styled, { ThemeProvider } from 'styled-components'
-import img from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg"
+// import img from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg"
 import LogoComponent from '../subComponents/LogoComponent'
 import SocialIcons  from '../subComponents/SocialIcons'
 import PowerButton  from '../subComponents/PowerButton'
 import '../../src/blog.css'
 import { PriceData } from '../data/BlogData'
-import BlogComponent from './BlogComponent'
+// import BlogComponent from './BlogComponent'
 import AnchorComponent from '../subComponents/Anchor'
 import BigTitle from "../subComponents/BigTitlte"
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion'
 import { DarkTheme } from './Themes'
 import ParticlesComponent from '../subComponents/ParticleComponent'
 

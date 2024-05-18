@@ -1,5 +1,4 @@
 // Here we will create dark and light theme variables
-import Video from '../assets/video/video.mp4'
 
 export const lightTheme = {
 

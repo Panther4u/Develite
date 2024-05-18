@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import { Github } from '../components/AllSvgs';
+// import { Github } from '../components/AllSvgs';
 
 
 
@@ -32,11 +32,11 @@ font-size: calc(1em + 0.5vw);
 font-weight: 600;
 `
 
-const Description = styled.h2`
-font-size: calc(0.8em + 0.3vw);
-font-family: 'Karla',sans-serif;
-font-weight: 500;
-`
+// const Description = styled.h2`
+// font-size: calc(0.8em + 0.3vw);
+// font-family: 'Karla',sans-serif;
+// font-weight: 500;
+// `
 const Tags = styled.div`
 border-top: 2px solid ${props =>props.theme.body};
 padding-top: 0.5rem;
@@ -114,7 +114,7 @@ const Item = {
 
 const Card = (props) => {
 
-    const {id, name, description, tags, demo, github, img} = props.data;
+    const {id, name, tags, demo, img} = props.data;
 
     return (
         <Box key={id} variants={Item}>

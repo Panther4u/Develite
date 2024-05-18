@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { DarkTheme } from "../components/Themes";
-import { motion } from "framer-motion";
+
 
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
@@ -9,7 +9,7 @@ import PowerButton from "../subComponents/PowerButton";
 import { YinYang } from "../components/AllSvgs";
 import BigTitlte from "../subComponents/BigTitlte";
 import ParticlesComponent from "../subComponents/ParticleComponent";
-import { Bakery, Ecommerce, Electronics, Fitness, Furniture, Restaurant } from "../data/WebsiteTemplateData";
+import {  Electronics } from "../data/WebsiteTemplateData";
 import WebsiteComponent from "../components/WebsiteComponent";
 
 const Box = styled.div`
@@ -22,14 +22,14 @@ const Box = styled.div`
 `;
 
 
-const Main = styled(motion.ul)`
-  position: fixed;
-  top: 12rem;
-  left: calc(10rem + 15vw);
-  height: 40vh;
-  display: flex;
-  color: white;
-`;
+// const Main = styled(motion.ul)`
+//   position: fixed;
+//   top: 12rem;
+//   left: calc(10rem + 15vw);
+//   height: 40vh;
+//   display: flex;
+//   color: white;
+// `;
 const Rotate = styled.span`
   display: block;
   position: fixed;
@@ -47,17 +47,17 @@ const Center = styled.div`
 `;
 
 // Framer-motion Configuration
-const container = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
+// const container = {
+//   hidden: { opacity: 0 },
+//   show: {
+//     opacity: 1,
 
-    transition: {
-      staggerChildren: 0.5,
-      duration: 0.5,
-    },
-  },
-};
+//     transition: {
+//       staggerChildren: 0.5,
+//       duration: 0.5,
+//     },
+//   },
+// };
 
 const ElectronicsPage = () => {
   const ref = useRef(null);

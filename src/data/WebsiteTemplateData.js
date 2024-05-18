@@ -1,6 +1,6 @@
 // src/data/Restaurant.js
-import Portfolio from "../assets/Images/Portfolio.png";
-import Agency from "../assets/Images/Agency.png";
+// import Portfolio from "../assets/Images/Portfolio.png";
+// import Agency from "../assets/Images/Agency.png";
 import Restaruant1 from "../assets/Images/Restaruant1.png"
 import Restaruant2 from "../assets/Images/Restaruant2.png"
 import Restaruant3 from "../assets/Images/Restaruant3.png"

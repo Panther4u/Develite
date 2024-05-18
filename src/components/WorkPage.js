@@ -1,14 +1,14 @@
 import React, { useEffect, useRef } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { DarkTheme } from "./Themes";
-import { motion } from "framer-motion";
+
 
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
 import PowerButton from "../subComponents/PowerButton";
 
-import { Work } from "../data/WorkData";
-import Card from "../subComponents/Card";
+// import { Work } from "../data/WorkData";
+// import Card from "../subComponents/Card";
 import { YinYang } from "./AllSvgs";
 import BigTitlte from "../subComponents/BigTitlte";
 import ParticlesComponent from "../subComponents/ParticleComponent";
@@ -24,14 +24,14 @@ const Box = styled.div`
   align-items: center;
 `;
 
-const Main = styled(motion.ul)`
-  position: fixed;
-  top: 12rem;
-  left: calc(10rem + 15vw);
-  height: 40vh;
-  display: flex;
-  color: white;
-`;
+// const Main = styled(motion.ul)`
+//   position: fixed;
+//   top: 12rem;
+//   left: calc(10rem + 15vw);
+//   height: 40vh;
+//   display: flex;
+//   color: white;
+// `;
 const Rotate = styled.span`
   display: block;
   position: fixed;
@@ -49,17 +49,17 @@ const Center = styled.div`
 `;
 
 // Framer-motion Configuration
-const container = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
+// const container = {
+//   hidden: { opacity: 0 },
+//   show: {
+//     opacity: 1,
 
-    transition: {
-      staggerChildren: 0.5,
-      duration: 0.5,
-    },
-  },
-};
+//     transition: {
+//       staggerChildren: 0.5,
+//       duration: 0.5,
+//     },
+//   },
+// };
 
 const WorkPage = () => {
   const ref = useRef(null);
