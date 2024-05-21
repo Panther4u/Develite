@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Develite/static/css/main.26fea5b0.css",
-    "main.js": "/Develite/static/js/main.7d62760d.js",
+    "main.js": "/Develite/static/js/main.5ab95dda.js",
     "static/media/video.mp4": "/Develite/static/media/video.87783cb4305fcea5ad28.mp4",
+    "static/media/Construction1.png": "/Develite/static/media/Construction1.9387ae5cdc24c4cfb707.png",
     "static/media/Bakery1.png": "/Develite/static/media/Bakery1.8ec028c99d7a7400cf2a.png",
     "static/media/Pet1.png": "/Develite/static/media/Pet1.0112c9ea2a6cfdd944c7.png",
     "static/media/Restaruant2.png": "/Develite/static/media/Restaruant2.bffea633b938eed2300e.png",
@@ -20,10 +21,10 @@
     "static/media/profile-img.png": "/Develite/static/media/profile-img.5179e446ac1a570ce69b.png",
     "index.html": "/Develite/index.html",
     "main.26fea5b0.css.map": "/Develite/static/css/main.26fea5b0.css.map",
-    "main.7d62760d.js.map": "/Develite/static/js/main.7d62760d.js.map"
+    "main.5ab95dda.js.map": "/Develite/static/js/main.5ab95dda.js.map"
   },
   "entrypoints": [
     "static/css/main.26fea5b0.css",
-    "static/js/main.7d62760d.js"
+    "static/js/main.5ab95dda.js"
   ]
 }
