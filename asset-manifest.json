@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Develite/static/css/main.f7b52c7b.css",
-    "main.js": "/Develite/static/js/main.d8d2761f.js",
-    "static/media/video.mp4": "/Develite/static/media/video.87783cb4305fcea5ad28.mp4",
-    "static/media/Bakery1.png": "/Develite/static/media/Bakery1.8ec028c99d7a7400cf2a.png",
-    "static/media/Restaruant2.png": "/Develite/static/media/Restaruant2.bffea633b938eed2300e.png",
-    "static/media/Bakery2.png": "/Develite/static/media/Bakery2.c2603c05074ee77c2636.png",
-    "static/media/Furniture1.png": "/Develite/static/media/Furniture1.5d7670b5e81b8fe6a25b.png",
-    "static/media/Restaruant1.png": "/Develite/static/media/Restaruant1.facdd717aea0f52cbd30.png",
-    "static/media/Ecommerce2.png": "/Develite/static/media/Ecommerce2.718b81f52beb60b8b972.png",
-    "static/media/Restaruant3.png": "/Develite/static/media/Restaruant3.6adf66d6a47ee26593d4.png",
-    "static/media/Ecommerce1.png": "/Develite/static/media/Ecommerce1.bf24c8fbe4ae10f4dc8c.png",
-    "static/media/Electronics1.png": "/Develite/static/media/Electronics1.03d2f7e5e5bfecbdc7f2.png",
-    "static/media/Fitness1.png": "/Develite/static/media/Fitness1.421c2a2ef3cff7a758c2.png",
-    "static/media/spaceman.png": "/Develite/static/media/spaceman.5ec7fcfa9a803ead726c.png",
-    "static/media/Logo.png": "/Develite/static/media/Logo.0077b53abe016b5a458e.png",
-    "static/media/profile-img.png": "/Develite/static/media/profile-img.5179e446ac1a570ce69b.png",
-    "index.html": "/Develite/index.html",
-    "main.f7b52c7b.css.map": "/Develite/static/css/main.f7b52c7b.css.map",
-    "main.d8d2761f.js.map": "/Develite/static/js/main.d8d2761f.js.map"
+    "main.css": "/Unicoderr/static/css/main.f7b52c7b.css",
+    "main.js": "/Unicoderr/static/js/main.3dfb9099.js",
+    "static/media/video.mp4": "/Unicoderr/static/media/video.87783cb4305fcea5ad28.mp4",
+    "static/media/Bakery1.png": "/Unicoderr/static/media/Bakery1.8ec028c99d7a7400cf2a.png",
+    "static/media/Restaruant2.png": "/Unicoderr/static/media/Restaruant2.bffea633b938eed2300e.png",
+    "static/media/Bakery2.png": "/Unicoderr/static/media/Bakery2.c2603c05074ee77c2636.png",
+    "static/media/Furniture1.png": "/Unicoderr/static/media/Furniture1.5d7670b5e81b8fe6a25b.png",
+    "static/media/Restaruant1.png": "/Unicoderr/static/media/Restaruant1.facdd717aea0f52cbd30.png",
+    "static/media/Ecommerce2.png": "/Unicoderr/static/media/Ecommerce2.718b81f52beb60b8b972.png",
+    "static/media/Restaruant3.png": "/Unicoderr/static/media/Restaruant3.6adf66d6a47ee26593d4.png",
+    "static/media/Ecommerce1.png": "/Unicoderr/static/media/Ecommerce1.bf24c8fbe4ae10f4dc8c.png",
+    "static/media/Electronics1.png": "/Unicoderr/static/media/Electronics1.03d2f7e5e5bfecbdc7f2.png",
+    "static/media/Fitness1.png": "/Unicoderr/static/media/Fitness1.421c2a2ef3cff7a758c2.png",
+    "static/media/spaceman.png": "/Unicoderr/static/media/spaceman.5ec7fcfa9a803ead726c.png",
+    "static/media/Logo.png": "/Unicoderr/static/media/Logo.0077b53abe016b5a458e.png",
+    "static/media/profile-img.png": "/Unicoderr/static/media/profile-img.5179e446ac1a570ce69b.png",
+    "index.html": "/Unicoderr/index.html",
+    "main.f7b52c7b.css.map": "/Unicoderr/static/css/main.f7b52c7b.css.map",
+    "main.3dfb9099.js.map": "/Unicoderr/static/js/main.3dfb9099.js.map"
   },
   "entrypoints": [
     "static/css/main.f7b52c7b.css",
-    "static/js/main.d8d2761f.js"
+    "static/js/main.3dfb9099.js"
   ]
 }
