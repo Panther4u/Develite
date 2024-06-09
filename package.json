@@ -1,5 +1,4 @@
 {
-  "homepage": "https://panther4u.github.io/Unicoderr/",
   "name": "Business Website",
   "version": "2.0",
   "private": true,
@@ -53,3 +52,4 @@
     "gh-pages": "^6.1.1"
   }
 }
+
