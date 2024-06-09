@@ -1,18 +1,15 @@
 {
   "files": {
-    "main.css": "/Develite/static/css/main.26fea5b0.css",
-    "main.js": "/Develite/static/js/main.5ab95dda.js",
+    "main.css": "/Develite/static/css/main.f7b52c7b.css",
+    "main.js": "/Develite/static/js/main.d8d2761f.js",
     "static/media/video.mp4": "/Develite/static/media/video.87783cb4305fcea5ad28.mp4",
-    "static/media/Construction1.png": "/Develite/static/media/Construction1.9387ae5cdc24c4cfb707.png",
     "static/media/Bakery1.png": "/Develite/static/media/Bakery1.8ec028c99d7a7400cf2a.png",
-    "static/media/Pet1.png": "/Develite/static/media/Pet1.0112c9ea2a6cfdd944c7.png",
     "static/media/Restaruant2.png": "/Develite/static/media/Restaruant2.bffea633b938eed2300e.png",
     "static/media/Bakery2.png": "/Develite/static/media/Bakery2.c2603c05074ee77c2636.png",
     "static/media/Furniture1.png": "/Develite/static/media/Furniture1.5d7670b5e81b8fe6a25b.png",
     "static/media/Restaruant1.png": "/Develite/static/media/Restaruant1.facdd717aea0f52cbd30.png",
     "static/media/Ecommerce2.png": "/Develite/static/media/Ecommerce2.718b81f52beb60b8b972.png",
     "static/media/Restaruant3.png": "/Develite/static/media/Restaruant3.6adf66d6a47ee26593d4.png",
-    "static/media/Restaruant4.png": "/Develite/static/media/Restaruant4.323cfe6e6ebfc691d5a9.png",
     "static/media/Ecommerce1.png": "/Develite/static/media/Ecommerce1.bf24c8fbe4ae10f4dc8c.png",
     "static/media/Electronics1.png": "/Develite/static/media/Electronics1.03d2f7e5e5bfecbdc7f2.png",
     "static/media/Fitness1.png": "/Develite/static/media/Fitness1.421c2a2ef3cff7a758c2.png",
@@ -20,11 +17,11 @@
     "static/media/Logo.png": "/Develite/static/media/Logo.0077b53abe016b5a458e.png",
     "static/media/profile-img.png": "/Develite/static/media/profile-img.5179e446ac1a570ce69b.png",
     "index.html": "/Develite/index.html",
-    "main.26fea5b0.css.map": "/Develite/static/css/main.26fea5b0.css.map",
-    "main.5ab95dda.js.map": "/Develite/static/js/main.5ab95dda.js.map"
+    "main.f7b52c7b.css.map": "/Develite/static/css/main.f7b52c7b.css.map",
+    "main.d8d2761f.js.map": "/Develite/static/js/main.d8d2761f.js.map"
   },
   "entrypoints": [
-    "static/css/main.26fea5b0.css",
-    "static/js/main.5ab95dda.js"
+    "static/css/main.f7b52c7b.css",
+    "static/js/main.d8d2761f.js"
   ]
 }
